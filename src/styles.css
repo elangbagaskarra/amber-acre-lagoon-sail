@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,650&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1b2420;
+  --color-forest: #12382f;
+  --color-moss: #1f6a52;
+  --color-cream: #f3eee4;
+  --color-paper: #fbf8f3;
+  --color-gold: #a6843d;
+  --color-gold-soft: #ead9ae;
+  --color-sand: #e4dccb;
+  --color-muted: #5d6b64;
+  --color-line: #d9d0bf;
+  --color-danger: #8d3b32;
+  --color-danger-soft: #f6e6e2;
+  --font-sans: "Source Sans 3", "Segoe UI", sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+  --radius-card: 1rem;
+}
+
+@layer base {
+  html, body, #root { min-height: 100%; }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  button:not(:disabled), [role="button"]:not(:disabled) { cursor: pointer; }
+  h1, h2, .font-display { font-family: var(--font-display); letter-spacing: -0.02em; }
+  :focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

@@ -1,0 +1,1 @@
+import{a as e}from"./master-pages-ntdnPmO-.js";var t=e;export{t as component};

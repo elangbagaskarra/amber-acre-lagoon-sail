@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "SIPKG YPIT",
+      "hasCanvas": false,
+      "bodyTextLen": 501,
+      "bodyTextHash": "f1d6f30c80e53a04769e585835e40bbbdb6c938acb7cf9723906b939caf14776",
+      "bodyTextPrefix": "YAYASAN PENDIDIKAN ISLAM TEMBALANG Penilaian kinerja guru dan pe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "SIPKG YPIT",
+      "hasCanvas": false,
+      "bodyTextLen": 193,
+      "bodyTextHash": "87bb2dee798702f0aab05a00d994fbace3c2028cbbed9a3c58ceee31b52d4423",
+      "bodyTextPrefix": "SIPKG YPIT Masuk Akun pertama yang mendaftar menjadi Super Admin",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

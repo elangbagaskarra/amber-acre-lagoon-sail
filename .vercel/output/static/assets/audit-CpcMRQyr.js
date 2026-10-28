@@ -1,0 +1,1 @@
+import{t as e}from"./rest-pages-Cy_a32bU.js";var t=e;export{t as component};
